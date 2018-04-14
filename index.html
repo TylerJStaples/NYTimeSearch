@@ -10,7 +10,6 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <script src="app.js"></script>
 </head>
 
 <body>
@@ -37,7 +36,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <p>Text here</p>
+                                <p>Search Term:</p>
                             </div>
                         </div>
                         <div class="input-group">
@@ -55,101 +54,69 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="row">
-                            <div class="col-md-12">
-                                <p>Text here</p>
+                            <div class="col-sm-12">
+                                <p>Number of records to retrieve:</p>
                             </div>
                         </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button id="#" class="btn btn-default" type="button">Go!</button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                
+                        <!-- /.col-lg-6 -->
                     </div>
+                    <!-- /.row -->
                 </div>
-                <button class="btn btn-default">
-                    Action
-                </button>
-                <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="#">Action</a>
-                    </li>
-                    <li class="disabled">
-                        <a href="#">Another action</a>
-                    </li>
-                    <li class="divider">
-                    </li>
-                    <li>
-                        <a href="#">Something else here</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="btn-group">
-
-                <button class="btn btn-default">
-                    Action
-                </button>
-                <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="#">Action</a>
-                    </li>
-                    <li class="disabled">
-                        <a href="#">Another action</a>
-                    </li>
-                    <li class="divider">
-                    </li>
-                    <li>
-                        <a href="#">Something else here</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="btn-group">
-
-                <button class="btn btn-default">
-                    Action
-                </button>
-                <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="#">Action</a>
-                    </li>
-                    <li class="disabled">
-                        <a href="#">Another action</a>
-                    </li>
-                    <li class="divider">
-                    </li>
-                    <li>
-                        <a href="#">Something else here</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Start Year (optional):</p>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button id="#" class="btn btn-default" type="button">Go!</button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>End year (optional):</p>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button id="#" class="btn btn-default" type="button">Go!</button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
     <div class="row">
         <div class="col-sm-12">
             <div class="btn-group">
 
                 <button class="btn btn-default" type="button">
-                    <em class="glyphicon glyphicon-align-left"></em> Left
+                    <em class="glyphicon glyphicon-search"></em> Search
                 </button>
                 <button class="btn btn-default" type="button">
-                    <em class="glyphicon glyphicon-align-center"></em> Center
-                </button>
-                <button class="btn btn-default" type="button">
-                    <em class="glyphicon glyphicon-align-right"></em> Right
-                </button>
-                <button class="btn btn-default" type="button">
-                    <em class="glyphicon glyphicon-align-justify"></em> Justify
+                    <em class="glyphicon glyphicon-align-center"></em> Clear Results
                 </button>
             </div>
         </div>
@@ -183,6 +150,8 @@
     </div>
     </div>
     </div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
