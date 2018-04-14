@@ -26,7 +26,21 @@ function getSearchTerm() {
    var searchTerm = jq_search.attr('search-term');
    console.log(searchTerm);
 }
-// #search-term;
-// #search-number;
-// #search-start-year;
-// #search-end-year;
+
+function getSearchNumber() {
+   var searchNumber = jq_search.attr('search-number');
+   console.log(searchNumber);
+
+}
+
+function getStartYear() {
+   var searchStartYear = jq_search.attr('search-start-year');
+   console.log(searchTerm);
+
+}
+
+function getEndYear () {
+   var searchEndYear = jq_search.attr('search-end-year');
+   console.log(searchTerm);
+
+}
