@@ -4,6 +4,7 @@ jQuery(document).ready(function(){
 
 //Global variables
 var results = $("#results");
+var jq_search = $("body");
 
 function buildResponseArea() {
     var jq_newRow = $("<row>");
@@ -21,6 +22,10 @@ function buildResponseArea() {
     results.append(jq_newRow);
 }
 
+function getSearchTerm() {
+   var searchTerm = jq_search.attr('search-term');
+   console.log(searchTerm);
+}
 // #search-term;
 // #search-number;
 // #search-start-year;
